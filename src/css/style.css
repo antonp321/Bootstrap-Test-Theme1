@@ -1,0 +1,81 @@
+body {
+  background: #343a40; }
+  body #h-section {
+    background: url("../img/mfs.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px; }
+    body #h-section .dark-overlay {
+      background-color: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      min-height: 700px; }
+      body #h-section .dark-overlay .home-inner {
+        padding-top: 150px; }
+        body #h-section .dark-overlay .home-inner i {
+          background-color: white;
+          color: #007bff;
+          font-size: 1.5em;
+          border-radius: 5px; }
+  body #e-section .card {
+    border: 0 !important; }
+    body #e-section .card .card-header {
+      background-color: #1e1e1e; }
+      body #e-section .card .card-header .container #findMore {
+        border: 1px solid;
+        border-color: #868e96;
+        color: #868e96;
+        background-color: #1e1e1e; }
+        body #e-section .card .card-header .container #findMore:hover {
+          background-color: white; }
+    body #e-section .card .card-body .container i {
+      background-color: #1e1e1e;
+      color: white;
+      font-size: 1.5em;
+      border-radius: 5px; }
+  body #c-section .card {
+    border: 0 !important; }
+    body #c-section .card .card-header .container #findMore2 {
+      border: 1px solid;
+      border-color: white;
+      color: white;
+      background-color: #007bff; }
+      body #c-section .card .card-header .container #findMore2:hover {
+        background-color: white;
+        color: #007bff; }
+    body #c-section .card .card-body {
+      background-color: #1e1e1e; }
+      body #c-section .card .card-body .container i {
+        background-color: white;
+        color: #007bff;
+        font-size: 1.5em;
+        border-radius: 5px; }
+  body #sh-section .card {
+    border: 0 !important; }
+    body #sh-section .card .card-header .container #findMore3 {
+      border: 1px solid;
+      border-color: white;
+      color: white;
+      background-color: #007bff; }
+      body #sh-section .card .card-header .container #findMore3:hover {
+        background-color: white;
+        color: #007bff; }
+    body #sh-section .card .card-body {
+      background-color: white; }
+      body #sh-section .card .card-body .container i {
+        background-color: #1e1e1e;
+        color: white;
+        font-size: 1.5em;
+        border-radius: 5px; }
+  body #footer-section {
+    background-color: #1e1e1e; }
+  body nav {
+    background: rgba(52, 58, 64, 0.86);
+    border-bottom: 4px solid;
+    border-color: #007bff; }
+    body nav ul li a {
+      color: #868e96 !important; }
+      body nav ul li a:hover {
+        color: white !important; }

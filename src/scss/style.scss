@@ -1,0 +1,168 @@
+$menuLinkColor: #868e96;
+$menuLinkColorHover: white;
+$navBorderColor: #007bff;
+$darkOverlayColor: rgba(0,0,0,0.7);
+$exploreSectionHeaderColor: #1e1e1e;
+
+body{
+  background: rgba(52,58,64,1);
+  #h-section {
+    background: url('../img/mfs.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+
+    .dark-overlay {
+
+      background-color: $darkOverlayColor;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      min-height: 700px;
+
+      .home-inner {
+        padding-top: 150px;
+
+        i {
+          background-color: $menuLinkColorHover;
+          color: $navBorderColor;
+          font-size: 1.5em;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+
+  #e-section {
+    .card {
+      border: 0!important;
+
+      .card-header {
+        background-color: $exploreSectionHeaderColor;
+
+        .container{
+
+          #findMore{
+            border: 1px solid;
+            border-color: $menuLinkColor;
+            color: $menuLinkColor;
+            background-color: $exploreSectionHeaderColor;
+
+            &:hover {
+              background-color: $menuLinkColorHover;
+            }
+          }
+        }
+      }
+      .card-body {
+
+        .container {
+          i {
+            background-color: $exploreSectionHeaderColor;
+            color: $menuLinkColorHover;
+            font-size: 1.5em;
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+  }
+
+  #c-section {
+
+    .card {
+      border: 0 !important;
+
+      .card-header {
+
+        .container {
+
+          #findMore2 {
+            border: 1px solid;
+            border-color: $menuLinkColorHover;
+            color: $menuLinkColorHover;
+            background-color: $navBorderColor;
+
+            &:hover {
+              background-color: $menuLinkColorHover;
+              color: $navBorderColor;
+            }
+          }
+        }
+      }
+
+      .card-body {
+        background-color: $exploreSectionHeaderColor;
+
+        .container {
+          i {
+            background-color: $menuLinkColorHover;
+            color: $navBorderColor;
+            font-size: 1.5em;
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+  }
+
+  #sh-section {
+    .card {
+      border: 0 !important;
+
+      .card-header {
+
+        .container {
+
+          #findMore3 {
+            border: 1px solid;
+            border-color: $menuLinkColorHover;
+            color: $menuLinkColorHover;
+            background-color: $navBorderColor;
+
+            &:hover {
+              background-color: $menuLinkColorHover;
+              color: $navBorderColor;
+            }
+          }
+        }
+      }
+
+      .card-body {
+        background-color: $menuLinkColorHover;
+
+        .container {
+          i {
+            background-color: $exploreSectionHeaderColor;
+            color: $menuLinkColorHover;
+            font-size: 1.5em;
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+  }
+
+  #footer-section {
+    background-color: $exploreSectionHeaderColor;
+  }
+
+  nav{
+    background: rgba(52,58,64, .86);
+    border-bottom: 4px solid;
+    border-color: $navBorderColor;
+
+      ul {
+        li {
+          a {
+            color: $menuLinkColor!important;
+
+            &:hover {
+              color: $menuLinkColorHover!important;
+            }
+          }
+        }
+      }
+    }
+}
